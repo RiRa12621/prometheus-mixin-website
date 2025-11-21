@@ -259,7 +259,7 @@
         {
             "name": "elasticsearch",
             "source": "https://github.com/grafana/jsonnet-libs",
-            "subdir": "dockelasticsearcher-mixin"
+            "subdir": "elasticsearch-mixin"
         },
         {
             "name": "envoy",
