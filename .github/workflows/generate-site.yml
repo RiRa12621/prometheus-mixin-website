@@ -1,0 +1,15 @@
+name: Generate Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Update docs & licenses
+        run: hack/update-page.sh
